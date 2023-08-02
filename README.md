@@ -69,12 +69,18 @@ For information about the Powercore V1 hardware/electronics or firmware, examine
 
 [Powercore V1 Firmware Repo](https://github.com/Rack-Robotics/Powercore-V1-Firmware)
 
+The front panel of the Powercore sports the 24 volt enable, analog feedback, and digital alert, and USB ports. To enable the Powercore V1, allowing for output of EDM waveforms, use the provided JST connector to supply 24 volts DC to the Powercore V1. This is a safety feature. The Powercore V1 will not output EDM high-voltage waveforms without an enable voltage. 
+
+![Front](https://github.com/Rack-Robotics/Powercore-V1-Manual/blob/main/Powercore%20V1%20Front%20.png)
 
 
+The back panel of the Powercore V1 contains the power entry module (PEM) and DC fan cover. The power entry module contains a switch and fuse.
 
+![Back](https://github.com/Rack-Robotics/Powercore-V1-Manual/blob/main/Powercore%20V1%20Back.png)
 
+With the top panel removed, the internal electronics of the Powercore V1 can be seen. The Powercore V1 contains an EDM motherboard, power resistor PCB assembly, and DC cooling fan. 
 
-
+![Top](https://github.com/Rack-Robotics/Powercore-V1-Manual/blob/main/Powercore%20V1%20Top.png)
 
 ### Energy Consumption as a Function of Cylindrical Tool Diameter
 The higher the melting or boiling point of the metal, the more energy is required to remove material from the workpiece. Machining speed in EDM is influenced by the energy required to reach the melting or boiling point of the material being worked. As previously explained, materials with lower melting or boiling points, such as zinc and aluminum, require less energy to reach these temperatures, allowing the EDM process to proceed more quickly. This means the machining speed when working with these materials is generally faster. Conversely, materials with higher melting or boiling points, like titanium and steel, require more energy to heat, hence the process takes longer. Consequently, the machining speed when working with these materials is slower. 
