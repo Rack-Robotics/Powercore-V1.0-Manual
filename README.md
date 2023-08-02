@@ -13,12 +13,13 @@ It is important to use the Powercore in a responsible and lawful manner, followi
 
 The end user is solely responsible for all usage and outcomes associated with the Powercore EDM Power Supply. By using the Powercore, you accept all risks and liabilities that may arise from its use. The Powercore is a high voltage power supply, and as such, it poses a potentially deadly hazard. Rack Robotics, the manufacturer, cannot be held liable for any damages, losses, or injuries resulting from the use or misuse of the Powercore. It is crucial to carefully follow the provided instructions, adhere to safety guidelines, and exercise extreme caution during operation. Any unauthorized modifications may void the warranty and significantly increase the risk of malfunctions or life-threatening situations. Rack Robotics shall not be held responsible for any loss, damage, or injury resulting from the use of this product. Use the Powercore in strict accordance with applicable laws and regulations, and exercise the utmost diligence to minimize potential risks.
 
-[Rack Robotics on YouTube](https://www.youtube.com/@rackrobo)
-
 ## Do Not Short the Powercore! 
 To ensure the longevity and safe operation of your Powercore V1, it is essential to avoid short circuit events that can cause significant damage to its internal components, particularly the power MOSFET. A short circuit can occur when the positive and negative terminals of the device are connected with low or no resistance, causing a large current flow which can lead to overheating and subsequent damage.
 
 *Never leave the Powercore V1 unattended while in use. If a short circuit occurs, it's important to promptly disconnect the device to prevent further damage!*
+
+# YouTube
+[Rack Robotics on YouTube](https://www.youtube.com/@rackrobo)
 
 ## Electrical Discharge Machining
 Electrical Discharge Machining (EDM), also known as spark machining, is a non-traditional machining process that leverages the principle of rapid, controlled electrical discharges to remove material from a workpiece. In EDM, a series of electric sparks jumps across a gap between an electrode and the workpiece, submerged in a dielectric fluid. The thermal energy generated from these sparks is so intense that it vaporizes or melts the material on the workpiece surface in a controlled manner. The expelled molten material then solidifies into small debris particles and is flushed away by the continuously replaced dielectric fluid. By carefully controlling the frequency and energy of these sparks, EDM can achieve highly accurate and intricate shapes even in hard, difficult-to-machine materials.
