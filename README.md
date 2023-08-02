@@ -31,9 +31,9 @@ When voltage is applied, it creates an intense electric field between the tool a
 
 The choice of using brass for the tool (cathode) is due to its good electrical conductivity and relatively lower wear rate, meaning the tool retains its shape for longer, allowing more accurate and efficient machining. On the other hand, the workpiece, acting as the anode, is the target of the material removal process, where the generated heat from the spark causes localized melting or vaporization, thus aiding in achieving the desired shape or feature.
 
-## Powercore V1 Hardware and Electronics
+## Powercore V1
 
-The Rack Robotics's Powercore is a transistor EDM power supply unit. The Powercore creates, maintains, and monitors electrical sparks in an EDM machine. It is designed to be affordable and hackable. The Powercore has several features to achive its purpose: 
+The Rack Robotics's Powercore V1 is a transistor EDM power supply unit. The Powercore creates, maintains, and monitors electrical sparks in an EDM machine. It is designed to be affordable and hackable. The Powercore has several features to achive its purpose: 
 
     On-Board Raspberry Pi Pico  -   A drop-in Raspberry Pi Pico module is used as an on-board microcontroller, allowing for maximum flexibility. 
                                     Micropython come pre-flashed on-board. Do not attempt to program microcontroller while machining, or while 
@@ -68,6 +68,13 @@ For information about the Powercore V1 hardware/electronics or firmware, examine
 [Powercore V1 Hardware Repo](https://github.com/Rack-Robotics/Powercore-V1-Hardware)
 
 [Powercore V1 Firmware Repo](https://github.com/Rack-Robotics/Powercore-V1-Firmware)
+
+
+
+
+
+
+
 
 ### Energy Consumption as a Function of Cylindrical Tool Diameter
 The higher the melting or boiling point of the metal, the more energy is required to remove material from the workpiece. Machining speed in EDM is influenced by the energy required to reach the melting or boiling point of the material being worked. As previously explained, materials with lower melting or boiling points, such as zinc and aluminum, require less energy to reach these temperatures, allowing the EDM process to proceed more quickly. This means the machining speed when working with these materials is generally faster. Conversely, materials with higher melting or boiling points, like titanium and steel, require more energy to heat, hence the process takes longer. Consequently, the machining speed when working with these materials is slower. 
